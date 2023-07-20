@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #bf538957;
+  color: darkred;
+  text-align: center;
+  padding: 1rem;
+}
+
+main {
+  padding: 1rem;
+}
+
+.filters {
+  margin-bottom: 1rem;
+}
+
+.filters label {
+  margin-right: 0.5rem;
+}
+
+.emoji-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.emoji-card {
+  display: inline-block;
+  margin: 0.5rem;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  max-width: 150px; /* Limit the maximum width of each card */
+}
+
+.emoji-icon {
+  font-size: 2rem; /* Increase font size to display emojis properly */
+}
+
+.pagination {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.pagination button {
+  display: inline-block;
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #333;
+  cursor: pointer;
+}
+
+.pagination button.active {
+  background-color: #333;
+  color: #fff;
+}
